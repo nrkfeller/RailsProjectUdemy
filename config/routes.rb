@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :events
+
   match '/index' => 'rails_website_core#index', via: :get
 
   match '/events' => 'rails_website_core#events', via: :get

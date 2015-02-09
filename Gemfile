@@ -40,7 +40,7 @@ gem 'bootstrap-sass', '~> 2.3.1.0'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
+# Use Capistrano for deploymentqwe
 # gem 'capistrano-rails', group: :development
 gem 'devise'
 # Use debugger
