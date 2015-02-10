@@ -3,10 +3,6 @@ class RailsWebsiteCoreController < ApplicationController
     @title = "Index"
   end
 
-  def events
-    @title = "Events"
-  end
-
   def shop
     @title = "Shop"
   end

@@ -3,8 +3,6 @@ Rails.application.routes.draw do
 
   match '/index' => 'rails_website_core#index', via: :get
 
-  match '/events' => 'rails_website_core#events', via: :get
-
   match '/shop' => 'rails_website_core#shop', via: :get
 
   match '/discussion' => 'rails_website_core#discussion', via: :get
