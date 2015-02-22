@@ -13,7 +13,7 @@ class CommentsController < ApplicationController
   end
 
   def new
-    @comment = Comment.new
+    @comment = Comment.new(event_id: params[:event_id])
     respond_with(@comment)
   end
 

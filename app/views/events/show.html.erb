@@ -13,6 +13,7 @@
 <p>
   <strong>Description:</strong>
   <%= @event.description %>
+  <%= link_to 'New Comment', new_comment_path(event_id: @event) %>
 </p>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |
