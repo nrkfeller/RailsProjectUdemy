@@ -11,6 +11,7 @@ class EventsController < ApplicationController
   end
 
   def show
+    @comments = Comment.where(event_id: params[:id])
     respond_with(@event)
   end
 

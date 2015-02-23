@@ -4,7 +4,8 @@ class CommentsController < ApplicationController
   respond_to :html
 
   def index
-    @comments = Comment.all
+    @comments = Comment.where(event_id: params[:event_id])
+    @event = Event.find(params[:event_id])
     respond_with(@comments)
   end
 
