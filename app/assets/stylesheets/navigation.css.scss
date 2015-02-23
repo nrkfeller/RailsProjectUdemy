@@ -1,3 +1,5 @@
+$poopgreen: #FFF;
+
 nav#main_nav {
   ul {
     text-align: center;
@@ -12,7 +14,7 @@ nav#main_nav {
     a,
     a:link,
     a:visited {
-      color: #FFF;
+      color: $poopgreen;
       text-decoloration: none;
     }
   }
