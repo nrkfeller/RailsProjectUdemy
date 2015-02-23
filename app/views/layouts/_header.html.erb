@@ -1,5 +1,6 @@
-<header>
-   <nav id = 'sign_in'>
+<header id='page_header' role='banner'>
+  
+   <nav id = 'utility'>
       <% if member_signed_in? %>
         signed in as <%= current_member.email %>:
         <%= link_to "Sign Out", destroy_member_session_path, :method => :delete %>
